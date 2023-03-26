@@ -7,7 +7,7 @@ namespace Salvemundi_API.Controllers
 {
     [Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("weather")]
     [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
     public class WeatherForecastController : ControllerBase
     {
